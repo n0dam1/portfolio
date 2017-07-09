@@ -1,0 +1,20 @@
+# 日本語でのコメントを許可
+AsciiComments:
+  Enabled: false
+
+# クラスにコメントを残さない
+Documentation:
+  Enabled: false
+
+# クラス内クラスはネストでも::でも良い
+ClassAndModuleChildren:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - db/schema.rb
+    - config/unicorn.rb
+    - config/unicorn_staging.rb
+    - tmp/**/*
+    - node_modules/**/*
+    - bin/**/*
