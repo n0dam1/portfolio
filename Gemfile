@@ -7,6 +7,7 @@ end
 
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
+gem 'materialize-sass'
 gem 'rails', '~> 5.1.2'
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks', '~> 5'
