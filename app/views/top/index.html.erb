@@ -1,6 +1,198 @@
-<div class="collection">
-    <a href="#!" class="collection-item">Alan<span class="badge">1</span></a>
-    <a href="#!" class="collection-item">Alan<span class="new badge">4</span></a>
-    <a href="#!" class="collection-item">Alan</a>
-    <a href="#!" class="collection-item">Alan<span class="badge">14</span></a>
+<div class="parallax-container">
+  <div class="container">
+    <section class="section">
+      <h1 class="header center white-text">Portfolio</h1>
+      <div class="row center">
+        <h5 class="header col s12 white-text">Materializeを用いたポートフォリオサイトです。</h5>
+      </div>
+    </section>
+  </div>
+  <div class="parallax"><img src="<%= asset_path 'background.jpg' %>"></div>
+</div>
+
+<div class="container">
+  <section class="section">
+    <h1 class="header center" id="profile">Profile</h1>
+    <table>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>野田　実(Noda Minoru)</td>
+        </tr>
+        <tr>
+          <td>SNS</td>
+          <td><a href="https://github.com/n0dam1">Github</a>, <a href="https://www.facebook.com/minoru.noda.524">Facebook</a>, <a href="https://www.wantedly.com/users/1936521">Wantedly</a>, <a href="http://b.hatena.ne.jp/n0dam1/bookmark">はてなブックマーク</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <h1 class="header center" id="history">History</h1>
+    <table>
+      <tbody>
+        <tr>
+          <td>2010/03</td>
+          <td>京都大学工学部情報学科数理工学コース卒業</td>
+        </tr>
+        <tr>
+          <td>2012/03</td>
+          <td>京都大学大学院情報学研究科数理工学専攻修了</td>
+        </tr>
+        <tr>
+          <td>2012/04 - </td>
+          <td>飲料メーカーの情報子会社へ入社。基幹システムの保守・運用をメインに上流工程から下流工程まで一通り経験。</td>
+        </tr>
+        <tr>
+          <td>2017/01 - 2017/06</td>
+          <td>プログラミングスクールDIVE INTO CODEへ入校。Ruby on RailsでWebサービスを構築するスキルを習得。</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1 class="header center" id="skills">Skills</h1>
+    <div class="row">
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "ruby_on_rails.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Ruby on Rails</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "ruby.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Ruby</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "java.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Java</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "sql.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">SQL</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "js.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">JavaScript</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "html.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">HTML</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "css.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">CSS</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "jquery.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">jQuery</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "php.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">PHP</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "git.svg" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Git</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "svn.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Subversion</span>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "ipa.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">応用情報技術者</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="header center" id="works">Works</h1>
+    <div class="row">
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "sample.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">SNS</span>
+            <p>架空のSNSです。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag "portfolio.png" %>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Portfolio</span>
+            <p>このサイトです。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
