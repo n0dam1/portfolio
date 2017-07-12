@@ -13,7 +13,6 @@ gem 'pg'
 gem 'rails', '~> 5.1.2'
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks', '~> 5'
-gem 'sqlite3'
 gem 'uglifier', '>= 1.3.0'
 gem 'webpacker'
 
@@ -21,6 +20,7 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'sqlite3'
 end
 
 group :development do
